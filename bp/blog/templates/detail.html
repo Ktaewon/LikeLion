@@ -20,7 +20,7 @@
         <div class="card">
             <div class="card-body">
                 <h5>{{comment.body}}</h5>
-                <h6>작성자 : {{comment.writer}}, 날짜 : {{comment.pub_date}} </h6>
+                <h6>작성자 : {{comment.writer}}, 날짜 : {{comment.pub_date}} 야호오</h6>
                 {% if comment.writer == user %}
                 <a href="{% url 'comment_delete' comment.id %}"><button type="button" class="btn btn-dark">삭제</button></a>
                 {% endif %}
